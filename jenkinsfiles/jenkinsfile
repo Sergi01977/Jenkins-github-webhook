@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build again') {
             steps {
-                echo 'This satge will build the code.'
+                echo 'This stage will build the code.'
             }
         }    
         stage('Build frontend') {
@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Will Deply the code.'
+                echo 'Will Deploy the code.'
             }
         }
         stage('Test') {
@@ -34,3 +34,4 @@ pipeline {
             }
         }
     }
+}
